@@ -4,12 +4,30 @@
   box-sizing: border-box;
 }
 
+/*main section */
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
 .main-link{
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: flex-end;
-  background-color: red;
+ 
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-link a{
@@ -19,10 +37,6 @@
   cursor: pointer;
 }
 
-.main-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
+
+
+/* header section*/
