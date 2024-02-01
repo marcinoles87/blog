@@ -69,3 +69,18 @@
 }
 
 /*header section*/
+
+.header-elements{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100vw;
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 2px;
+
+
+}

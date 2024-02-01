@@ -1,5 +1,6 @@
 import React from 'react'
 import img1 from '../img/wakacje.jpg'
+import '../App.css'
 
 function  Header() {
 
@@ -8,7 +9,21 @@ function  Header() {
             info: "sssssssssssss",
             date: '22-12-2024',
             img : img1 ,
+        },
+
+        {
+            info: "sssssssssssss",
+            date: '22-12-2024',
+            img : img1 ,
+        },
+
+        {
+            info: "sssssssssssss",
+            date: '22-12-2024',
+            img : img1 ,
         }
+
+
     ]
     
 
