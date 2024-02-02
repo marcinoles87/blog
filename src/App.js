@@ -12,8 +12,11 @@ function App() {
       <Main></Main>
       <Navigation></Navigation>
       <Header></Header>
-      <News></News>
-      <Article></Article>
+      <div className='article-container'>
+        <News></News>
+        <Article></Article>
+      </div>
+      
     </div>
   );
 }
