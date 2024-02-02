@@ -33,8 +33,12 @@ function  Header() {
             {news.map( (item, index) => {
                 return(
                     <div className='header-content' key={index} >
-                        <h3>{item.info}</h3>
-                        <p>{item.date}</p>
+                        
+                        <div className='header-content-info'>
+                            <h3>{item.info}</h3>
+                            <p>{item.date}</p>
+                        </div>
+                        
                         <img src={item.img} alt={item.date}></img>
                     </div>
                 )
