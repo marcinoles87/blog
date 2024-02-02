@@ -6,19 +6,19 @@ function  Header() {
 
     const news = [
         {
-            info: "sssssssssssss",
+            info: "My Life",
             date: '22-12-2024',
             img : img1 ,
         },
 
         {
-            info: "sssssssssssss",
+            info: "My Hobby",
             date: '22-12-2024',
             img : img1 ,
         },
 
         {
-            info: "sssssssssssss",
+            info: "My Project ",
             date: '22-12-2024',
             img : img1 ,
         }
