@@ -118,6 +118,23 @@
 }
 
 .article-bio-container img{
-  width: 100%;
+  width: 50%;
+  height: 50%;
   
+}
+
+/*news section */
+
+.news-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-post{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

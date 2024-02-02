@@ -1,8 +1,9 @@
 import React from 'react'
 import '../App.css'
-import myFoto from '../img/wakacje.jpg'
+import myFoto from '../img/myfoto.jpg'
 
 function Article() {
+  
   return (
     <div className='article-bio-container'>
       <h1> My Full Name</h1>

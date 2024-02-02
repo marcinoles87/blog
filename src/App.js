@@ -7,13 +7,39 @@ import Navigation from './components/Navigation';
 import News from './components/News';
 
 function App() {
+
+  const dataNow = new Date().toLocaleString()
+  console.log(dataNow)
+
+  const news = [
+
+    {
+      title: "nowy poczatek" ,
+      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      date : dataNow , 
+    },
+
+    {
+      title: "nowy poczatek" ,
+      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      date : dataNow , 
+    },
+
+    {
+      title: "nowy poczatek" ,
+      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      date : dataNow , 
+    }
+
+
+  ]
   return (
     <div className="App">
       <Main></Main>
       <Navigation></Navigation>
       <Header></Header>
       <div className='article-container'>
-        <News></News>
+        <News news={news}></News>
         <Article></Article>
       </div>
       
