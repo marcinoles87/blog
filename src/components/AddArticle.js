@@ -4,7 +4,11 @@ import '../App.css';
 function AddArticle({news}) {
     console.log(news)
   return (
-    <div>AddArticle</div>
+    <div className='addarticle-container'>
+        <input placeholder='add Title'></input>
+        <input placeholder='add text'></input>
+        <button>Add</button>
+    </div>
   )
 }
 
