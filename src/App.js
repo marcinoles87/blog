@@ -1,5 +1,6 @@
 
 import './App.css';
+import AddArticle from './components/AddArticle';
 import Article from './components/Article';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -38,9 +39,11 @@ function App() {
       <Main></Main>
       <Navigation></Navigation>
       <Header></Header>
+      <AddArticle news={news}></AddArticle>
+
       <div className='article-container'>
-        <News news={news}></News>
-        <Article></Article>
+          <News news={news}></News>
+          <Article></Article>
       </div>
       
     </div>
