@@ -5,14 +5,18 @@ function AddArticle({news , title , setTitle}) {
      
   console.log(title)
 
-    const addArticle = () => {
+    const addArticle = (e) => {
+
+      const dataNow = new Date().toLocaleString()
       console.log(news)
-   
+      const val = 'dzis jest jutrem'
+      const obj = { title: val , news : 'sss' , date: dataNow }
+      news.push(obj)
      
     }
 
-    const handleOnChangeText = (e) =>{
-      const val = e.target.value
+    const handleOnChangeText = (e , index) =>{
+    
       
     }
   return (
