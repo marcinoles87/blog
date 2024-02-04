@@ -10,12 +10,12 @@ import News from './components/News';
 
 function App() {
 
-  const [title , setTitle] = useState();
-  const [text , setText] = useState();
+  const [title , setTitle] = useState('eeee');
+  const [text , setText] = useState('');
   const [newsArray , setNewsArray] = useState([]);
 
   const dataNow = new Date().toLocaleString()
-  console.log(dataNow)
+ 
 
   const news = [
 
