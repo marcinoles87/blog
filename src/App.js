@@ -1,4 +1,5 @@
 
+import { useState } from 'react';
 import './App.css';
 import AddArticle from './components/AddArticle';
 import Article from './components/Article';
@@ -8,6 +9,10 @@ import Navigation from './components/Navigation';
 import News from './components/News';
 
 function App() {
+
+  const [title , setTitle] = useState();
+  const [text , setText] = useState();
+  const [newsArray , setNewsArray] = useState([]);
 
   const dataNow = new Date().toLocaleString()
   console.log(dataNow)
@@ -42,8 +47,8 @@ function App() {
       <AddArticle news={news}></AddArticle>
 
       <div className='article-container'>
-          <News news={news}></News>
-          <Article></Article>
+          <News news={news} ></News>
+          <Article news={news} title={title} setTitle={setTitle}></Article>
       </div>
       
     </div>
