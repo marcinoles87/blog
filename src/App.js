@@ -10,14 +10,10 @@ import News from './components/News';
 
 function App() {
 
-  const [title , setTitle] = useState('eeee');
-  const [text , setText] = useState('');
-  const [newsArray , setNewsArray] = useState([]);
-
   const dataNow = new Date().toLocaleString()
- 
 
-  const news = [
+  
+  const newsOld = [
 
     {
       title: "nowy poczatek" ,
@@ -39,6 +35,15 @@ function App() {
 
 
   ]
+
+  const [title , setTitle] = useState('eeee');
+  const [text , setText] = useState('');
+  const [newsArray , setNewsArray] = useState(newsOld);
+  const [news , setNews] = useState([])
+
+ console.log(newsArray)
+ 
+
   return (
     <div className="App">
       <Main></Main>
@@ -48,7 +53,7 @@ function App() {
 
       <div className='article-container'>
           <News news={news} ></News>
-          <Article news={news} title={title} setTitle={setTitle}></Article>
+          <Article news={news} setNews={setNews} title={title} setTitle={setTitle}></Article>
       </div>
       
     </div>

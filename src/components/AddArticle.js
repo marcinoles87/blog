@@ -1,7 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-function AddArticle({news , title , setTitle}) {
+function AddArticle({news , setNews , title , setTitle}) {
      
   console.log(title)
 
@@ -11,7 +11,11 @@ function AddArticle({news , title , setTitle}) {
       console.log(news)
       const val = 'dzis jest jutrem'
       const obj = { title: val , news : 'sss' , date: dataNow }
-      news.push(obj)
+      
+      const newArr = news.push(obj)
+      console.log(newArr)
+      
+      
      
     }
 
