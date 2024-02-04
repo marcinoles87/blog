@@ -38,7 +38,7 @@ function App() {
 
   const [title , setTitle] = useState('eeee');
   const [text , setText] = useState('');
-  const [newsArray , setNewsArray] = useState(newsOld);
+  let [newsArray , setNewsArray] = useState(newsOld);
   const [news , setNews] = useState([])
 
  console.log(newsArray)
@@ -49,11 +49,11 @@ function App() {
       <Main></Main>
       <Navigation></Navigation>
       <Header></Header>
-      <AddArticle news={news}></AddArticle>
+      <AddArticle newsArray={newsArray} setNewsArray={setNewsArray}></AddArticle>
 
       <div className='article-container'>
-          <News news={news} ></News>
-          <Article news={news} setNews={setNews} title={title} setTitle={setTitle}></Article>
+          <News newsArray={newsArray} ></News>
+          <Article></Article>
       </div>
       
     </div>
