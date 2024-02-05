@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+
 }
 
 /*main section */
@@ -19,7 +21,15 @@
   width: 100%;
   flex-direction: row;
   justify-content: flex-end;
+  transition: ease 1s;
  
+}
+
+
+.main-link a:hover{
+  transform: scale(1.5);
+  transition: ease 1s;
+  color:blue;
 }
 
 .main-info{
