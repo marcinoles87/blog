@@ -6,10 +6,10 @@ function Main() {
     <div className='main-container'>
 
             <div className='main-link'>
-                <a href='#'>Link 1</a>
-                <a href='#'>Link 1</a>
-                <a href='#'>Link 1</a>
-                <a href='#'>Link 1</a>
+                <a href='#'><i class="fa-brands fa-linkedin"></i></a>
+                <a href='#'><i class="fa-brands fa-facebook"></i></a>
+                <a href='#'><i class="fa-regular fa-envelope"></i></a>
+                <a href='#'><i class="fa-brands fa-instagram"></i></a>
             </div>
 
             <div className='main-info'>

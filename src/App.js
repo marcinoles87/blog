@@ -36,10 +36,9 @@ function App() {
 
   ]
 
-  const [title , setTitle] = useState('eeee');
-  const [text , setText] = useState('');
+
   let [newsArray , setNewsArray] = useState(newsOld);
-  const [news , setNews] = useState([])
+ 
 
  console.log(newsArray)
  
