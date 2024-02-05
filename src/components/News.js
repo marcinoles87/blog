@@ -2,6 +2,9 @@ import React from 'react'
 
 function News({newsArray}) {
   console.log(newsArray)
+
+  
+ 
   return (
     <div className='news-container'>
       <h1>News from my Life</h1>

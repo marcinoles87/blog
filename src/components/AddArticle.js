@@ -11,10 +11,11 @@ function AddArticle({newsArray , setNewsArray}) {
       
       const val = 'dzis jest jutrem'
       const obj = { title: val , news : 'sss' , date: dataNow }
-      
       newsArray.push(obj)
-      setNewsArray(newsArray)
-      console.log(newsArray)
+      const upDateArray = [...newsArray]
+      
+      setNewsArray(upDateArray)
+      
     }
 
   return (
