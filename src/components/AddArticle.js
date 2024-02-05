@@ -5,16 +5,20 @@ function AddArticle({newsArray , setNewsArray}) {
      
 
 
+
     const addArticle = (e) => {
 
-      const dataNow = new Date().toLocaleString()
-      
-      const val = 'dzis jest jutrem'
-      const obj = { title: val , news : 'sss' , date: dataNow }
+      const title = document.querySelector('.input-title').value;
+      const text = document.querySelector('.input-text').value;
+      const dataNow = new Date().toLocaleString();
+      const obj = { title: title , news : text , date: dataNow }
       newsArray.push(obj)
+
       const upDateArray = [...newsArray]
       
       setNewsArray(upDateArray)
+
+    
       
     }
 
