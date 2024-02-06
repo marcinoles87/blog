@@ -134,15 +134,15 @@
   align-items: flex-start;
 }
 
-.article-bio-container{
+.author-bio-container{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30vw;
+ 
 }
 
-.article-bio-container img{
+.author-bio-container img{
   width: 50%;
   height: 50%;
   
@@ -151,15 +151,23 @@
 /*news section */
 
 .news-container{
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
 }
 
 .news-post{
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
+}
+
+.news-post h1{
+  margin: 10px;
 }

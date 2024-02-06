@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import './App.css';
 import AddArticle from './components/AddArticle';
-import Article from './components/Article';
+import Author from './components/Author';
 import Header from './components/Header';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
@@ -17,13 +17,13 @@ function App() {
 
     {
       title: "nowy poczatek" ,
-      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      news : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente neque eos rem provident repellendus id ex commodi placeat, autem doloremque esse aspernatur rerum nemo, illum voluptates. Esse aliquid fugit error " ,
       date : dataNow , 
     },
 
     {
       title: "nowy poczatek" ,
-      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      news : "lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro explicabo nisi sapiente recusandae. Repellat, optio non? Magni excepturi quisquam est provident ex delectus, totam quae modi minima nostrum, vero error Esse sunt optio et sint, qui quia obcaecati dolore delectus debitis aut voluptates reiciendis accusantium laboriosam in consequatur doloremque minima minus nemo illum veritatis non nam id maiores iusto! QuidemCulpa omnis corporis quia itaque, asperiores incidunt nostrum sint recusandae facilis deserunt eum labore aperiam quaerat excepturi suscipit minus dolor laboriosam a accusamus non optio nihil quibusdam. Minima, recusandae voluptate!Eveniet sequi ullam, cum iste quia non repellat hic error, alias nam odio architecto dolor enim velit consequatur quidem amet! Autem dignissimos iure hic officia provident voluptatem fugiat tenetur quod! " ,
       date : dataNow , 
     },
 
@@ -35,6 +35,7 @@ function App() {
 
 
   ]
+  
 
 
   let [newsArray , setNewsArray] = useState(newsOld);
@@ -52,7 +53,7 @@ function App() {
 
       <div className='article-container'>
           <News newsArray={newsArray} ></News>
-          <Article></Article>
+          <Author></Author>
       </div>
       
     </div>
