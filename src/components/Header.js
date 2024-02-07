@@ -9,18 +9,21 @@ function  Header() {
     const news = [
         {
             info: "My Life",
+            tag : 'lifestyle' ,
             date: '22-12-2024',
             img : img1 ,
         },
 
         {
             info: "My Hobby",
+            tag : 'hobby' ,
             date: '22-12-2024',
             img : img2 ,
         },
 
         {
             info: "My Project ",
+            tag : 'family',
             date: '22-12-2024',
             img : img3 ,
         }
@@ -37,6 +40,7 @@ function  Header() {
                     <div className='header-content' key={index} >
                         
                         <div className='header-content-info'>
+                            <p className='header-tag'>{item.tag}</p>
                             <h3>{item.info}</h3>
                             <p>{item.date}</p>
                         </div>
