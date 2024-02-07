@@ -166,7 +166,7 @@
 }
 
 .author-bio-container h5{
-  margin: 10px;
+  margin: 5px;
 }
 
 .author-bio-container img{
@@ -180,6 +180,8 @@
 }
 
 .author-links a {
+  color:black;
+  text-decoration: none;
   margin: 10px;
 }
 
