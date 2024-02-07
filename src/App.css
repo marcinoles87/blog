@@ -20,7 +20,8 @@
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: right;
+  margin-right: 15%;
   transition: ease 1s;
  
 }
@@ -160,13 +161,26 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
  
+}
+
+.author-bio-container h5{
+  margin: 10px;
 }
 
 .author-bio-container img{
   width: 50%;
   height: 50%;
   
+}
+
+.author-links {
+  margin:10px;
+}
+
+.author-links a {
+  margin: 10px;
 }
 
 /*news section */
