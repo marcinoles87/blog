@@ -42,7 +42,7 @@ function  Header() {
                         <div className='header-content-info'>
                             <p className='header-tag'>{item.tag}</p>
                             <h3>{item.info}</h3>
-                            <p>{item.date}</p>
+                            <p className='header-date'>{item.date}</p>
                         </div>
                         
                         <img src={item.img} alt={item.date}></img>

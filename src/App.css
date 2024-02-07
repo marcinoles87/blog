@@ -105,10 +105,25 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  background-color: rgba(221, 221, 221, 0.067);
+  background-color: rgba(221, 221, 221, 0);
   font-size: 20px;
-  backdrop-filter: blur(5px);
+  /* backdrop-filter: blur(5px); */
   color:white;
+  text-align: center;
+  
+}
+
+.header-tag{
+  margin: 10px;
+  font-size: 12px;
+  text-align: center;
+  border:1px solid white;
+}
+
+.header-date{
+  margin: 10px;
+  font-size:10px;
+  letter-spacing: 5px;
   
 }
 
