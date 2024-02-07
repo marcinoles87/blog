@@ -1,5 +1,7 @@
 import React from 'react'
-import img1 from '../img/wakacje.jpg'
+import img1 from '../img/wakacje.jpg';
+import img2 from '../img/beach.jpg';
+import img3 from '../img/mountain.jpg';
 import '../App.css'
 
 function  Header() {
@@ -14,13 +16,13 @@ function  Header() {
         {
             info: "My Hobby",
             date: '22-12-2024',
-            img : img1 ,
+            img : img2 ,
         },
 
         {
             info: "My Project ",
             date: '22-12-2024',
-            img : img1 ,
+            img : img3 ,
         }
 
 
