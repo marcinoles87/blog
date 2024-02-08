@@ -193,6 +193,10 @@
 
 /*news section */
 
+.news-img{
+  width: 100%;
+}
+
 .news-container{
 
   display: flex;
