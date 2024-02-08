@@ -49,12 +49,13 @@ function App() {
       <Main></Main>
       <Navigation></Navigation>
       <Header></Header>
-      <AddArticle newsArray={newsArray} setNewsArray={setNewsArray}></AddArticle>
 
       <div className='article-container'>
           <News newsArray={newsArray} ></News>
           <Author></Author>
       </div>
+
+      <AddArticle newsArray={newsArray} setNewsArray={setNewsArray}></AddArticle>
       
     </div>
   );

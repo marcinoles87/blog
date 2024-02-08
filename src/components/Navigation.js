@@ -7,10 +7,11 @@ function Navigation() {
     <div className='nav-container'>
         <div className='nav-elements'>
             <ul className='nav-link'>
-                <li><a href=''>My History</a></li>
+            
                 <li><a href=''>My Life</a></li>
                 <li><a href=''>My Hobby</a></li>
-                <li><a href=''>My Mind</a></li>
+                <li><a href=''>My Skills</a></li>
+                <li><a href=''>My Projects</a></li>
                
             </ul>
         </div>
