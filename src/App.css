@@ -168,7 +168,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  
  
+}
+
+.author-bio-container p{
+  padding: 10px;
 }
 
 .author-bio-container h5{
@@ -217,4 +222,19 @@
 
 .news-post h1{
   margin: 10px;
+}
+
+/*footer section*/
+
+.footer-container{
+  display: flex;
+  background-color: black;
+  color:white;
+  justify-content: center;
+  padding: 10px;
+
+}
+
+.footer-container p{
+  
 }

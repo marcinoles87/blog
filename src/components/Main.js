@@ -12,7 +12,7 @@ function Main() {
             </div>
 
             <div className='main-info'>
-                <h1>Be happy for your Live !</h1>
+                <h1>Be happy and Enjoy your Live !</h1>
                 <h3>Mrc 87</h3>
             </div>
        

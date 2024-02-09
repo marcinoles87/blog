@@ -7,6 +7,7 @@ import Header from './components/Header';
 import Main from './components/Main';
 import Navigation from './components/Navigation';
 import News from './components/News';
+import Footer from './components/Footer'
 
 function App() {
 
@@ -56,6 +57,7 @@ function App() {
       </div>
 
       <AddArticle newsArray={newsArray} setNewsArray={setNewsArray}></AddArticle>
+      <Footer></Footer>
       
     </div>
   );
