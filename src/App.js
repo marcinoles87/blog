@@ -8,6 +8,10 @@ import Main from './components/Main';
 import Navigation from './components/Navigation';
 import News from './components/News';
 import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom';
+import Skills from './pages/Skills';
+import Hobby from './pages/Hobby';
+import Project from './pages/Project';
 
 function App() {
 
@@ -52,7 +56,18 @@ function App() {
       <Header></Header>
 
       <div className='article-container'>
-          <News newsArray={newsArray} ></News>
+          <Routes>
+            
+              <Route path='/' element={<News newsArray={newsArray} ></News>}/>
+              <Route path='/skills' element={<Skills></Skills>}/>
+              <Route path='/hobby' element={<Hobby></Hobby>}/>
+              <Route path='/project' element={<Project></Project>}/>
+
+        
+          </Routes>
+
+      
+          
           <Author></Author>
       </div>
 

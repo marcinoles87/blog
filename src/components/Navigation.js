@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css'
+import { Link } from 'react-router-dom';
 
 
 function Navigation() {
@@ -7,11 +8,17 @@ function Navigation() {
     <div className='nav-container'>
         <div className='nav-elements'>
             <ul className='nav-link'>
+
+              <Link className='link-router' to={'/'}>Me</Link>
+              <Link className='link-router' to={'/skills'}><li><a href=''>My Skills</a></li></Link>
+              <Link className='link-router' to={'/hobby'}><li><a href=''>My Hobby</a></li></Link>
+              <Link className='link-router' to={'/project'}><li><a href=''>My Projects</a></li></Link>
+              
             
-                <li><a href=''>My Life</a></li>
-                <li><a href=''>My Hobby</a></li>
-                <li><a href=''>My Skills</a></li>
-                <li><a href=''>My Projects</a></li>
+                
+                
+                
+                
                
             </ul>
         </div>
