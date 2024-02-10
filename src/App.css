@@ -168,6 +168,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  /* width: 30vw; */
   
  
 }
@@ -241,4 +242,12 @@
 
 .link-router{
   text-decoration: none;
+}
+
+.skills-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80vw;
+  
 }
