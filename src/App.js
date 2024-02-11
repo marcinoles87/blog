@@ -62,13 +62,14 @@ function App() {
               <Route path='/skills' element={<Skills></Skills>}/>
               <Route path='/hobby' element={<Hobby></Hobby>}/>
               <Route path='/project' element={<Project></Project>}/>
+              <Route path='/author' element={<Author></Author>}/>
 
         
           </Routes>
 
       
           
-          <Author></Author>
+         
       </div>
 
       <AddArticle newsArray={newsArray} setNewsArray={setNewsArray}></AddArticle>
