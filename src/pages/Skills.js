@@ -6,7 +6,7 @@ function Skills() {
 
   const showSkill = (e) => {
     console.log(e.target)
-    const skillList = document.querySelector('.skill-list');
+    const skillList = e.target
     console.log(skillList)
     skillList.classList.toggle('show-list');
   }
