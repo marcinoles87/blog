@@ -252,20 +252,28 @@
   
 }
 
-.skills-container h1{
-  border-bottom: 5px solid rgb(37, 37, 114);
-}
+
 
 .skills-container ul{
-  margin: 20px;
+  border-top: 5px solid rgb(37, 37, 114);
+  margin: 10px;
   list-style: none;
-  height: 0;
   transition: 2s ease;
+  color: white;
+  
 }
 
-.skills-container li:hover{
-  height: 100%;
+.show-list{
+  visibility: visible;
+  background-color: red;
+  color: black;
+  
+
+
+
 }
+
+
 
 .skills-container li{
   margin: 10px;
