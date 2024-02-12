@@ -245,10 +245,14 @@
 .skills-container{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 90vw;
   text-align: center;
   
+}
+
+.skills-container h1{
+  border-bottom: 5px solid rgb(39, 39, 92);
 }
 
 .skills-container ul{
