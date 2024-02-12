@@ -168,14 +168,14 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  /* width: 30vw; */
+  width: 40vw;
   
  
 }
 
 .author-bio-container p{
   padding: 10px;
-}
+}5
 
 .author-bio-container h5{
   margin: 5px;
@@ -183,7 +183,7 @@
 
 .author-bio-container img{
   width: 50%;
-  height: 50%;
+  
   
 }
 
@@ -245,7 +245,17 @@
 .skills-container{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   width: 90vw;
+  text-align: center;
   
+}
+
+.skills-container ul{
+  margin: 20px;
+  list-style: none;
+}
+
+.skills-container li{
+  margin: 10px;
 }

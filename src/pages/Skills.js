@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className='skills-container'>
       <div>
-        <h1>My carrer</h1>
+        <h1>Carrer</h1>
         <ul>
           <li>Kierownik magazynu 2012-2024</li>
           <li>Zaopatrzeniowiec 2008-2012</li>
@@ -13,7 +13,7 @@ function Skills() {
       </div>
 
       <div>
-        <h1>My Skill it</h1>
+        <h1>Skill</h1>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
@@ -23,7 +23,7 @@ function Skills() {
       </div>
 
       <div>
-        <h1>My strong side</h1>
+        <h1>Strong side</h1>
         <ul>
           <li>Komunikatywnosc</li>
           <li>Pracowitosc</li>
