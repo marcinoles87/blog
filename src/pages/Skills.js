@@ -12,15 +12,19 @@ function Skills() {
   }
   return (
     <div className='skills-container'>
-      <div>
-      <i class="fa-solid fa-briefcase fa-2xl"></i>
-        <ul className='carrer-list' onMouseEnter={showSkill}>
+
+      
+        <i class="fa-solid fa-briefcase fa-2xl"></i>
+
+        <div className='skill-card'>
+         <ul className='carrer-list'>
           <li>Kierownik magazynu 2012-2024</li>
           <li>Zaopatrzeniowiec 2008-2012</li>
        
         </ul>
       </div>
-
+      </div>
+/* 
       <div>
       <i class="fa-solid fa-laptop-code fa-2xl"></i>
         <ul className='skill-list' onMouseEnter={showSkill}>
@@ -41,7 +45,7 @@ function Skills() {
           <li>Multi-tasking</li>
         </ul>
       </div>
-    </div>
+    </div> */
   )
 }
 
