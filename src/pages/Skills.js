@@ -13,7 +13,7 @@ function Skills() {
   return (
     <div className='skills-container'>
       <div>
-        <h1 className='carrer-item' >Carrer</h1>
+      <i class="fa-solid fa-briefcase fa-2xl"></i>
         <ul className='carrer-list' onMouseEnter={showSkill}>
           <li>Kierownik magazynu 2012-2024</li>
           <li>Zaopatrzeniowiec 2008-2012</li>
@@ -22,7 +22,7 @@ function Skills() {
       </div>
 
       <div>
-        <h1 className='skill-item'>Skill</h1>
+      <i class="fa-solid fa-laptop-code fa-2xl"></i>
         <ul className='skill-list' onMouseEnter={showSkill}>
           <li>HTML</li>
           <li>CSS</li>
@@ -32,7 +32,7 @@ function Skills() {
       </div>
 
       <div>
-        <h1 className='side-item'>Strong side</h1>
+      <i class="fa-solid fa-user fa-2xl"></i>
         <ul className='side-list' onMouseEnter={showSkill}>
           <li>Komunikatywnosc</li>
           <li>Pracowitosc</li>
