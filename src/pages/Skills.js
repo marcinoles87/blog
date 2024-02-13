@@ -17,7 +17,7 @@ function Skills() {
         <i class="fa-solid fa-briefcase fa-2xl"></i>
 
         <div className='skill-card'>
-         <ul className='carrer-list'>
+         <ul className='skill-list'>
           <li>Kierownik magazynu 2012-2024</li>
           <li>Zaopatrzeniowiec 2008-2012</li>
        
