@@ -296,3 +296,27 @@
 .skills-container li{
   margin: 10px;
 }
+
+
+@media (max-width:480px) { 
+
+  .main-info h1 {
+    font-size:26px ;
+}
+
+  .nav-elements ul li a{
+    font-size: 12px;
+  }
+  
+  h3{
+    font-size: 12px;
+  }
+
+  .header-date {
+    margin: 5px;
+    font-size: 5px;
+    letter-spacing: 1px;
+}
+
+
+ }

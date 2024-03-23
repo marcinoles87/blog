@@ -36,6 +36,13 @@ function App() {
       title: "nowy poczatek" ,
       news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
       date : dataNow , 
+    } ,
+
+    
+    {
+      title: "nowy poczatek" ,
+      news : 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum ' ,
+      date : dataNow , 
     }
 
 
